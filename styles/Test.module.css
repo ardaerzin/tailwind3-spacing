@@ -1,0 +1,11 @@
+.test {
+  width: theme('spacing.1');
+  height: theme('spacing.1');
+  @apply bg-[blue];
+}
+
+.broken-test {
+  /* width: theme('spacing[1.5]'); */
+  /* height: theme('spacing[1.5]'); */
+  @apply bg-[orange];
+}
